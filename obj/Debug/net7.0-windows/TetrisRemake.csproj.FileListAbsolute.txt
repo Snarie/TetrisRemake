@@ -1,0 +1,16 @@
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\bin\Debug\net7.0-windows\TetrisRemake.exe
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\bin\Debug\net7.0-windows\TetrisRemake.deps.json
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\bin\Debug\net7.0-windows\TetrisRemake.runtimeconfig.json
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\bin\Debug\net7.0-windows\TetrisRemake.dll
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\bin\Debug\net7.0-windows\TetrisRemake.pdb
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.Form1.resources
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.csproj.GenerateResource.cache
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.AssemblyInfoInputs.cache
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.AssemblyInfo.cs
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.csproj.CoreCompileInputs.cache
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.dll
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\refint\TetrisRemake.dll
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.pdb
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\TetrisRemake.genruntimeconfig.cache
+C:\Users\snari\Desktop\vsProjects\School\TetrisRemake\obj\Debug\net7.0-windows\ref\TetrisRemake.dll
