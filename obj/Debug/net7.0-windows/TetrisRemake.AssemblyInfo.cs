@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TetrisRemake")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921dbe24cc20c04ccad5322b04b93bbc4579a30c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TetrisRemake")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TetrisRemake")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
