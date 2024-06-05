@@ -51,7 +51,7 @@
             BoardPanel.Name = "BoardPanel";
             BoardPanel.Size = new Size(0,0);
             BoardPanel.TabIndex = 0;
-            BoardPanel.Paint += GridPanel_Paint;
+            BoardPanel.Paint += BoardPanel_Paint;
             // 
             // Form1
             // 
@@ -65,8 +65,6 @@
             Text = "Tetris";
             Load += Form1_Load;
             SizeChanged += Form1_SizeChanged;
-            Paint += Form1_Paint;
-            KeyDown += Form1_KeyDown;
             GamePanel.ResumeLayout(false);
             ResumeLayout(false);
         }
