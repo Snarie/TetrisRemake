@@ -107,7 +107,14 @@ namespace TetrisRemake
                         int boardX = currentTetrimino.Position.X + x;
                         int boardY = currentTetrimino.Position.Y + y;
 
-                        if (boardX < 0 || boardX >= BoardWidth || boardY >= BoardHeight || (boardY >= 0 && board[boardX, boardY] != 0))
+                        if (boardX < 0 || 
+                            boardX >= board.GetLength(0) || 
+                            boardY < 0 ||
+                            boardY >= board.GetLength(1)-2) // Check if at the bottom (magic -2 for some reason)
+                        {
+                            return true;
+                        }
+                        if (board[boardX, boardY] != 0)
                         {
                             return true;
                         }

@@ -22,7 +22,7 @@ namespace TetrisRemake
             gameLogic = new GameLogic();
             gameTimer = new System.Windows.Forms.Timer
             {
-                Interval = 500 // play speed
+                Interval = 200 // play speed
             };
             gameTimer.Tick += GameTimer_Tick;
             gameTimer.Start();
@@ -76,13 +76,35 @@ namespace TetrisRemake
                     {
                         int boardX = currentTetrimino.Position.X + x;
                         int boardY = currentTetrimino.Position.Y + y;
-                        g.FillRectangle(Brushes.Red, boardX * 30, boardY * 30, 30, 30);
+                        var r = new Random().Next(1, 80);
+                        using SolidBrush brush = new(Color.FromArgb(r, r, r));
+                        //g.FillRectangle(brush, boardX * 30, boardY * 30, 30, 30);
+                        g.FillRectangle(Brushes.Yellow, boardX * 30, boardY * 30, 30, 30);
                         g.DrawRectangle(Pens.Black, boardX * 30, boardY * 30, 30, 30);
                     }
                 }
             }
         }
 
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    gameLogic.MoveTetriminoLeft();
+                    break;
+                case Keys.Right:
+                    gameLogic.MoveTetriminoRight();
+                    break;
+                case Keys.Up:
+                    gameLogic.RotateTetrimino();
+                    break;
+                case Keys.Down:
+                    gameLogic.MoveTetriminoDown();
+                    break;
+            }
+            BoardPanel.Invalidate();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             CenterBoardPanel();

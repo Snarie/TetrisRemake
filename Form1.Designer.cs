@@ -65,6 +65,7 @@
             Text = "Tetris";
             Load += Form1_Load;
             SizeChanged += Form1_SizeChanged;
+            KeyDown += Form1_KeyDown;
             GamePanel.ResumeLayout(false);
             ResumeLayout(false);
         }
