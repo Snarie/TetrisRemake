@@ -11,6 +11,7 @@ namespace TetrisRemake
         public int[,] Shape { get; protected set; }
         public int Width { get { return Shape.GetLength(0); } }
         public int Height { get { return Shape.GetLength(1); } }
+        public Color Color { get ; protected set; }
         public Point Position { get; set; }
 
         public Tetrimino()
@@ -42,6 +43,7 @@ namespace TetrisRemake
             {
                 { 1, 1, 1, 1 }
             };
+            Color = Color.Cyan;
         }
     }
     internal class OTetrimino : Tetrimino
@@ -53,6 +55,7 @@ namespace TetrisRemake
                 { 1, 1 },
                 { 1, 1, }
             };
+            Color = Color.Yellow;
         }
     }
     internal class TTetrimino : Tetrimino
@@ -64,6 +67,7 @@ namespace TetrisRemake
                 { 0, 1, 0 },
                 { 1, 1, 1 }
             };
+            Color = Color.Indigo;
         }
     }
     internal class STetrimino : Tetrimino
@@ -75,6 +79,7 @@ namespace TetrisRemake
                 { 0, 1, 1 },
                 { 1, 1, 0 }
             };
+            Color = Color.Red;
         }
     }
     internal class ZTetrimino : Tetrimino
@@ -86,6 +91,7 @@ namespace TetrisRemake
                 { 1, 1, 0 },
                 { 0, 1, 1 }
             };
+            Color = Color.ForestGreen;
         }
     }
     internal class JTetrimino : Tetrimino
@@ -97,6 +103,7 @@ namespace TetrisRemake
                 { 1, 0, 0 },
                 { 1, 1, 1 }
             };
+            Color = Color.HotPink;
         }
     }
     internal class LTetrimino : Tetrimino
@@ -108,6 +115,7 @@ namespace TetrisRemake
                 { 0, 0, 1 },
                 { 1, 1, 1 }
             };
+            Color = Color.DarkOrange;
         }
     }
 }

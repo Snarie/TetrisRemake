@@ -79,7 +79,7 @@ namespace TetrisRemake
                         var r = new Random().Next(1, 80);
                         using SolidBrush brush = new(Color.FromArgb(r, r, r));
                         //g.FillRectangle(brush, boardX * 30, boardY * 30, 30, 30);
-                        g.FillRectangle(Brushes.Yellow, boardX * 30, boardY * 30, 30, 30);
+                        g.FillRectangle(new SolidBrush(currentTetrimino.Color), boardX * 30, boardY * 30, 30, 30);
                         g.DrawRectangle(Pens.Black, boardX * 30, boardY * 30, 30, 30);
                     }
                 }
